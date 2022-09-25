@@ -1,0 +1,144 @@
+/** CSS Styles for Landing Page **/
+
+body {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #1f2937;
+  }
+
+  .header {
+    color: #fff;
+    height: 72px;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  ul {
+    list-style: none;   
+    margin: 0;
+    padding: 0; 
+  }
+
+  ul.left {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+    color: #e5e7eb;
+  }
+
+  .section-1 {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .section-1 h1 {
+    font-size: 48px;
+  }
+
+  .subsection.first {
+    padding-right: 25%;
+  }
+
+  .subsection.first p {
+    margin-top: -25px;
+  }
+
+  .subsection {
+    width: 50%;
+  }
+
+  .subsection.placeholder {
+    background-color: #8a8d90;
+  }
+
+  button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color:#fff;
+    padding: 8px 16px;
+    
+  }
+
+  .section-2 {
+    background-color: #f5f5f5;
+  }
+
+  .container {
+   padding: 0 20% 0 20%;
+   }
+
+  .card {
+    background-color: #f5f5f5;
+    width: 120px;
+    font-size: small;
+  }
+
+  .box {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+   
+    
+  }
+
+  .section-3 {
+    background-color: #8a8d90;
+  }
+
+  .section-4 {
+    background-color: #e5e7eb;
+  }
+
+  footer {
+    color: #fff;
+    height: 72px;
+  }
+
+
+  body {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 52px 0 52px;
+  }
+
+  .section-1 {
+    display: flex;
+    margin: 32px 0 32px 0;
+    padding: 0 52px 0 52px;
+  }
+
+  .subsection.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-2 {
+   text-align: center;
+ 
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+  }
